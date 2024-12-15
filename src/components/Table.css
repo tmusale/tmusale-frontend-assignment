@@ -1,0 +1,46 @@
+.table-container {
+  text-align: center;
+  margin: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #6b5b95;
+  padding: 15px;
+  color: white;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  background-color: #d5e1df;
+}
+
+.pagination-container {
+  margin: 20px;
+}
+
+.paginate-button {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.next {
+  margin-left: 5px;
+}
+
+.selected-button {
+  background-color: #034f84;
+  color: white;
+  margin-left: 5px;
+}
